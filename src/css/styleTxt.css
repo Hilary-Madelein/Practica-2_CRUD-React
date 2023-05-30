@@ -1,0 +1,19 @@
+.non-editable {
+    background-color: #f9e7db; /* Color de fondo no editable */
+    cursor: not-allowed; /* Cursor que indica que no se puede editar */
+    user-select: none; /* Evita que se pueda seleccionar el texto */
+    border: none; /* Elimina el borde */
+    padding: 10px; /* Espaciado interno */
+    font-size: 18px; /* Tamaño de fuente */
+    color: #000000; /* Color del texto */
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra */
+    opacity: 0.7; /* Opacidad */
+  }
+  
+  /* Estilo cuando se coloca el cursor encima */
+  .non-editable:hover {
+    background-color: #f2dbca; /* Cambia el color de fondo */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Cambia la sombra */
+    opacity: 1; /* Aumenta la opacidad */
+  }
